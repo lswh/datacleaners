@@ -31,3 +31,5 @@ df_missing.to_csv('missingvalues.csv', sep=',')
 df_KPIencode = pd.merge(df_missing,acmonth, on=['EMAIL','EMAIL'])
 
 df_KPIencode.to_csv('encodeonKPI.csv', sep=',')
+
+
